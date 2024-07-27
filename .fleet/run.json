@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "name": "Run KbpsCrudKotlinApplication",
+      "type": "command",
+      "workingDir": "C:\\Users\\Yakup Cemil\\Projeler\\Kuaralabs\\KBPS\\KBPS-CRUD-Template-Kotlin\\KBPS-CRUD-KOTLIN",
+      "program": "C:\\Program Files\\Java\\jdk-22\\bin\\java.exe",
+      "args": [
+        "-XX:TieredStopAtLevel=1",
+        "-Dspring.output.ansi.enabled=always",
+        "-Dcom.sun.management.jmxremote",
+        "-Dspring.jmx.enabled=true",
+        "-Dspring.liveBeansView.mbeanDomain",
+        "-Dspring.application.admin.enabled=true",
+        "-Dmanagement.endpoints.jmx.exposure.include=*",
+        "-Dfile.encoding=UTF-8",
+        "-Dsun.stdout.encoding=UTF-8",
+        "-Dsun.stderr.encoding=UTF-8",
+        "-classpath",
+        "C:\\Users\\Yakup Cemil\\Projeler\\Kuaralabs\\KBPS\\KBPS-CRUD-Template-Kotlin\\KBPS-CRUD-KOTLIN\\build\\classes\\kotlin\\main;C:\\Users\\Yakup Cemil\\Projeler\\Kuaralabs\\KBPS\\KBPS-CRUD-Template-Kotlin\\KBPS-CRUD-KOTLIN\\build\\resources\\main",
+        "com.kbps.KBPS_CRUD_KOTLIN.KbpsCrudKotlinApplicationKt"
+      ]
+    }
+  ]
+}
